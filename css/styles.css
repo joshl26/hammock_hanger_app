@@ -1,0 +1,168 @@
+:root {
+  -ff-primary: "Roboto:100", sans-serif;
+  --clr-primary: #000000;
+  --clr-body: rgb(0, 0, 0);
+  --clr-bg: rgb(255, 250, 238);
+  --spacer: 1rem;
+  --flow-space: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, var(--spacer));
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  color: var(--clr-primary);
+}
+
+#hang-distance,
+#rope-tension,
+#rope-shear,
+#hang-height,
+#hang-weight,
+#sit-height,
+#hang-angle {
+  height: 2vw;
+}
+
+.content {
+  width: 80vw;
+  margin: 3rem auto;
+  padding: 2em;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+body {
+  font-family: var(-ff-primary);
+  min-height: 100vh;
+  font-size: 1.125em;
+  line-height: 1.6;
+  color: var(--clr-body);
+  background: var(--clr-bg);
+}
+
+.col {
+  padding: 1em;
+  background: rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.even-columns {
+  display: flex;
+  gap: 1em;
+}
+
+.even-columns > * {
+  flex-basis: 45%;
+}
+
+.grid-ish {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.grid-ish > * {
+  flex: 1 3 10em;
+}
+
+.results {
+  grid-area: results;
+  background-image: url(http://joshlehman.ca/hammock/images/HammockHangerAppBackground.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70vw;
+  width: auto;
+  padding-bottom: 44%;
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+}
+
+.results-hang-angle {
+  position: absolute;
+  top: 60%;
+  left: 72%;
+  text-align: center;
+  width: 20%;
+}
+
+.results-sit-height {
+  position: absolute;
+  top: 85%;
+  left: 41.75%;
+  text-align: center;
+  width: 20%;
+}
+
+.results-hang-weight {
+  position: absolute;
+  top: 78.5%;
+  left: 58.5%;
+  text-align: center;
+  width: 20%;
+}
+
+.results-hang-height {
+  position: absolute;
+  top: 24.5%;
+  left: 9.75%;
+  text-align: center;
+  width: 20%;
+}
+
+.results-shear {
+  position: absolute;
+  top: 18.5%;
+  left: 28.75%;
+  text-align: center;
+  width: 15%;
+}
+
+.results-rope-tension {
+  position: absolute;
+  top: 21.5%;
+  right: 16.25%;
+  text-align: center;
+  width: 15%;
+  transform: rotate(-58deg);
+}
+
+.results-hang-distance {
+  position: absolute;
+  top: 7%;
+  left: 45.25%;
+  text-align: center;
+  width: 20%;
+}
+
+.title {
+  font-family: "Roboto:100", sans-serif;
+  font-size: 3vw;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+h3 {
+  font-family: "Roboto:500", sans-serif;
+  font-size: 1vw;
+}
