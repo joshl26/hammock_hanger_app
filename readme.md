@@ -22,7 +22,7 @@ There are plans to make this into a full fledged web app at some point in the fu
 
 ## Usage
 
-- Open HTML index.html in live server
+- Open index.html in live server environment
 
 
 ## Author
