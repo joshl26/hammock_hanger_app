@@ -29,13 +29,13 @@ There are plans to make this into a full fledged web app at some point in the fu
 👤 **Joshua Lehman**
 
 ## Portfolio
-- https://joshlehman.ca 
+- [joshlehman.ca](https://joshlehman.ca) 
 
 ## Github  
-- [@joshl26](https://github.com/joshl26)  
+- [joshl26](https://github.com/joshl26)  
   
  ## LinkedIn 
-- [@jlehmaneng](https://linkedin.com/in/jlehmaneng)
+- [joshrlehman](https://www.linkedin.com/in/joshrlehman/)
   
 
 
